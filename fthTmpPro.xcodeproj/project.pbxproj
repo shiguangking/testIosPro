@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FF51D1D51FC844ED00DCB69B /* testProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF51D1D51FC844ED00DCB69B /* fthTmpPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fthTmpPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF51D1D81FC844ED00DCB69B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF51D1D91FC844ED00DCB69B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FF51D1DB1FC844ED00DCB69B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		FF51D1E41FC844ED00DCB69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF51D1E61FC844ED00DCB69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF51D1E71FC844ED00DCB69B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FF51D1ED1FC844EE00DCB69B /* testProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF51D1ED1FC844EE00DCB69B /* fthTmpProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fthTmpProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF51D1F11FC844EE00DCB69B /* testProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testProjectTests.m; sourceTree = "<group>"; };
 		FF51D1F31FC844EE00DCB69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF51D1F81FC844EE00DCB69B /* testProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF51D1F81FC844EE00DCB69B /* fthTmpProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fthTmpProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF51D1FC1FC844EE00DCB69B /* testProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testProjectUITests.m; sourceTree = "<group>"; };
 		FF51D1FE1FC844EE00DCB69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		FF51D1D61FC844ED00DCB69B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF51D1D51FC844ED00DCB69B /* testProject.app */,
-				FF51D1ED1FC844EE00DCB69B /* testProjectTests.xctest */,
-				FF51D1F81FC844EE00DCB69B /* testProjectUITests.xctest */,
+				FF51D1D51FC844ED00DCB69B /* fthTmpPro.app */,
+				FF51D1ED1FC844EE00DCB69B /* fthTmpProTests.xctest */,
+				FF51D1F81FC844EE00DCB69B /* fthTmpProUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF51D1D41FC844ED00DCB69B /* testProject */ = {
+		FF51D1D41FC844ED00DCB69B /* fthTmpPro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF51D2011FC844EE00DCB69B /* Build configuration list for PBXNativeTarget "testProject" */;
+			buildConfigurationList = FF51D2011FC844EE00DCB69B /* Build configuration list for PBXNativeTarget "fthTmpPro" */;
 			buildPhases = (
 				FF51D1D11FC844ED00DCB69B /* Sources */,
 				FF51D1D21FC844ED00DCB69B /* Frameworks */,
@@ -147,14 +147,14 @@
 			);
 			dependencies = (
 			);
-			name = testProject;
+			name = fthTmpPro;
 			productName = testProject;
-			productReference = FF51D1D51FC844ED00DCB69B /* testProject.app */;
+			productReference = FF51D1D51FC844ED00DCB69B /* fthTmpPro.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FF51D1EC1FC844EE00DCB69B /* testProjectTests */ = {
+		FF51D1EC1FC844EE00DCB69B /* fthTmpProTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF51D2041FC844EE00DCB69B /* Build configuration list for PBXNativeTarget "testProjectTests" */;
+			buildConfigurationList = FF51D2041FC844EE00DCB69B /* Build configuration list for PBXNativeTarget "fthTmpProTests" */;
 			buildPhases = (
 				FF51D1E91FC844EE00DCB69B /* Sources */,
 				FF51D1EA1FC844EE00DCB69B /* Frameworks */,
@@ -165,14 +165,14 @@
 			dependencies = (
 				FF51D1EF1FC844EE00DCB69B /* PBXTargetDependency */,
 			);
-			name = testProjectTests;
+			name = fthTmpProTests;
 			productName = testProjectTests;
-			productReference = FF51D1ED1FC844EE00DCB69B /* testProjectTests.xctest */;
+			productReference = FF51D1ED1FC844EE00DCB69B /* fthTmpProTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FF51D1F71FC844EE00DCB69B /* testProjectUITests */ = {
+		FF51D1F71FC844EE00DCB69B /* fthTmpProUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF51D2071FC844EE00DCB69B /* Build configuration list for PBXNativeTarget "testProjectUITests" */;
+			buildConfigurationList = FF51D2071FC844EE00DCB69B /* Build configuration list for PBXNativeTarget "fthTmpProUITests" */;
 			buildPhases = (
 				FF51D1F41FC844EE00DCB69B /* Sources */,
 				FF51D1F51FC844EE00DCB69B /* Frameworks */,
@@ -183,9 +183,9 @@
 			dependencies = (
 				FF51D1FA1FC844EE00DCB69B /* PBXTargetDependency */,
 			);
-			name = testProjectUITests;
+			name = fthTmpProUITests;
 			productName = testProjectUITests;
-			productReference = FF51D1F81FC844EE00DCB69B /* testProjectUITests.xctest */;
+			productReference = FF51D1F81FC844EE00DCB69B /* fthTmpProUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FF51D1D01FC844ED00DCB69B /* Build configuration list for PBXProject "testProject" */;
+			buildConfigurationList = FF51D1D01FC844ED00DCB69B /* Build configuration list for PBXProject "fthTmpPro" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF51D1D41FC844ED00DCB69B /* testProject */,
-				FF51D1EC1FC844EE00DCB69B /* testProjectTests */,
-				FF51D1F71FC844EE00DCB69B /* testProjectUITests */,
+				FF51D1D41FC844ED00DCB69B /* fthTmpPro */,
+				FF51D1EC1FC844EE00DCB69B /* fthTmpProTests */,
+				FF51D1F71FC844EE00DCB69B /* fthTmpProUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		FF51D1EF1FC844EE00DCB69B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF51D1D41FC844ED00DCB69B /* testProject */;
+			target = FF51D1D41FC844ED00DCB69B /* fthTmpPro */;
 			targetProxy = FF51D1EE1FC844EE00DCB69B /* PBXContainerItemProxy */;
 		};
 		FF51D1FA1FC844EE00DCB69B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FF51D1D41FC844ED00DCB69B /* testProject */;
+			target = FF51D1D41FC844ED00DCB69B /* fthTmpPro */;
 			targetProxy = FF51D1F91FC844EE00DCB69B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -468,7 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.unimlink.jwg.testProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testProject.app/testProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fthTmpPro.app/fthTmpPro";
 			};
 			name = Debug;
 		};
@@ -482,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.unimlink.jwg.testProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testProject.app/testProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fthTmpPro.app/fthTmpPro";
 			};
 			name = Release;
 		};
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF51D1D01FC844ED00DCB69B /* Build configuration list for PBXProject "testProject" */ = {
+		FF51D1D01FC844ED00DCB69B /* Build configuration list for PBXProject "fthTmpPro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF51D1FF1FC844EE00DCB69B /* Debug */,
@@ -524,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF51D2011FC844EE00DCB69B /* Build configuration list for PBXNativeTarget "testProject" */ = {
+		FF51D2011FC844EE00DCB69B /* Build configuration list for PBXNativeTarget "fthTmpPro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF51D2021FC844EE00DCB69B /* Debug */,
@@ -533,7 +533,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF51D2041FC844EE00DCB69B /* Build configuration list for PBXNativeTarget "testProjectTests" */ = {
+		FF51D2041FC844EE00DCB69B /* Build configuration list for PBXNativeTarget "fthTmpProTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF51D2051FC844EE00DCB69B /* Debug */,
@@ -542,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF51D2071FC844EE00DCB69B /* Build configuration list for PBXNativeTarget "testProjectUITests" */ = {
+		FF51D2071FC844EE00DCB69B /* Build configuration list for PBXNativeTarget "fthTmpProUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF51D2081FC844EE00DCB69B /* Debug */,
