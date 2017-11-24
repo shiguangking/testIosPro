@@ -434,7 +434,7 @@
 				DEVELOPMENT_TEAM = VELCFRZBHZ;
 				INFOPLIST_FILE = testProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.unimlink.jwg.testProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlink.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b4be799d-8223-4790-af7d-e3c57d201a57";
 				PROVISIONING_PROFILE_SPECIFIER = All_Devices;
@@ -450,7 +450,7 @@
 				DEVELOPMENT_TEAM = VELCFRZBHZ;
 				INFOPLIST_FILE = testProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.unimlink.jwg.testProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mlink.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "b4be799d-8223-4790-af7d-e3c57d201a57";
 				PROVISIONING_PROFILE_SPECIFIER = All_Devices;
